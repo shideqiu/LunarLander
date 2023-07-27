@@ -14,10 +14,11 @@
 - [Hyperparameter Analysis](#hyperparameter-analysis)
 - [Conclusion](#conclusion)
 - [References](#references)
+- [Files](#files)
 
 ## Introduction
 
-The Lunar Lander Project is an implementation of the Deep Q-Network (DQN) algorithm to solve the Lunar Lander v2 environment from OpenAI Gym. This project aims to train an agent using Reinforcement Learning (RL) techniques to successfully land a lunar lander on the moon's surface while avoiding crashes and using minimal fuel. Please check more details in the final report.
+The Lunar Lander Project is an implementation of the Deep Q-Network (DQN) algorithm to solve the Lunar Lander v2 environment from OpenAI Gym. This project aims to train an agent using Reinforcement Learning (RL) techniques to successfully land a lunar lander on the moon's surface while avoiding crashes and using minimal fuel. Please check more details in the [report_final.pdf](/report_final.pdf).
 
 ## Q Learning Fundamentals
 
@@ -68,10 +69,13 @@ The Lunar Lander project serves as a stepping stone for understanding and applyi
 
 [1] Minh, V., et al. "Human-level control through deep reinforcement learning." Nature 518.7540 (2015): 529-533.
 
-The code was implemented with Jupyter Notebook. The .py files were attached here. batch_size.py, decay_rates.py, gamma.py, lr.py, and neural.py are used for training model with different hyperparameters. The optimal model was the one in gamma.py with gamma=0.999.
+## Files
+
+The code was implemented with Jupyter Notebook. The `.py` files were attached here. batch_size.py, decay_rates.py, gamma.py, lr.py, and neural.py are used for training model with different hyperparameters. The optimal model was the one in gamma.py with gamma=0.999.
 
 The LunarLander.ipynb is used to test the training model. The optimal model was loaded and tested.
 
 - models folder: store all the training models.
 - jupyter notebook folder: store all jupyter notebooks.
 - scores folder: store the score and epsilon of each training episode with different hyperparameters.
+- report_final.pdf: The pdf report for this project.
