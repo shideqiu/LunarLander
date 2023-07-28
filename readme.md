@@ -1,4 +1,4 @@
-# Lunar Lander Project - Deep Q-Network (DQN) Implementation
+# Lunar Lander Project - Deep Q-Network (DQN) Implementation ([Report](report_final.pdf))
 
 <img src="img/lunar_lander.gif"/>
 
